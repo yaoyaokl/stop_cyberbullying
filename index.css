@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background-image: url("cyberbullying.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 15px;
+  font-family: serif;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #d9d9d9;
+  color: #222222;
+  text-decoration: underline;
+}
+
+.main-text {
+  font-family: Helvetica;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-text h3 {
+  font-size: 60px;
+}
+
+.main-text h1 {
+  margin-top: -50px;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: serif;
+}
+
+p, li {
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.video {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 80px;
+}
+
+.what {
+  background-color: #7ac2cf;
+  text-align: center;
+  padding: 80px 15%;
+}
+
+.why {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 80px 15%;
+}
+
+.why ul {
+  text-align: left;
+}
+
+.how {
+  background-color: #7ac2cf;
+  padding: 80px 15%;
+}
+
+.table1 {
+  padding-right: 20px;
+}
+
+.table2 {
+  padding-left: 20px;
+}
+
+.footerbar {
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  font-family: serif;
+  color: #f2f2f2;
+  background-color: #367588;
+}
+
+.footerbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.footerbar a:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+}
+
+.copyright {
+  padding: 15px;
+  text-decoration: none;
+}
+
+.top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+}
